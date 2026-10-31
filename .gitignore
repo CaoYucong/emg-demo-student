@@ -1,0 +1,27 @@
+.venv/
+.venvs/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.DS_Store
+*.egg-info/
+.python-version
+anaconda_projects/
+
+# Downloaded / generated (run scripts/prepare.py)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+cache/*.npy
+cache/*.npz
+checkpoints/**/*.safetensors
+checkpoints/**/.cache/
+
+# Keep folder placeholders
+!data/.gitkeep
+!data/processed/.gitkeep
+!checkpoints/.gitkeep
+!cache/.gitkeep
+!outputs/.gitkeep

@@ -1,0 +1,17 @@
+Official TinyMyo architecture file:
+  vendor/TinyMyo.py
+  copied from https://github.com/pulp-bio/BioFoundation/blob/main/models/TinyMyo.py
+  License: Apache-2.0
+  Copyright (C) 2025-2026 ETH Zurich, Switzerland
+
+Official UCI conversion helpers:
+  vendor/uci.py
+  copied from https://huggingface.co/PulpBio/TinyMyo/blob/main/scripts/uci.py
+  License: follow the TinyMyo/BioFoundation project licenses.
+  Used here for windowing and the published UCI filter settings only.
+
+Pretrained weights are NOT copied into this notice. They are downloaded from
+https://huggingface.co/PulpBio/TinyMyo
+License: CC BY-ND 4.0
+File used as the frozen encoder: pretraining/TinyMyo/TinyMyo.safetensors
+File NOT used as a foundation encoder: UCI_EMG/UCI_finetune_5sec.safetensors
